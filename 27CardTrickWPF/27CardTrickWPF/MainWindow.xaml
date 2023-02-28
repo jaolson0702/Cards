@@ -1,0 +1,14 @@
+﻿<Window x:Class="_27CardTrickWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_27CardTrickWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="cardsListBox" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,108,0,108" HorizontalAlignment="Center" Width="164" />
+        <Button x:Name="proceedButton" Content="Proceed" HorizontalAlignment="Center" Margin="0,343,0,0" VerticalAlignment="Top" Width="86" Height="27" Click="proceedButton_Click" />
+        <Label x:Name="memorizePromptLabel" Content="Memorize one of these cards." HorizontalAlignment="Left" Margin="318,63,0,0" VerticalAlignment="Top" />
+    </Grid>
+</Window>

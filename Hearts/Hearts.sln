@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hearts", "Hearts\Hearts.csproj", "{614010D3-6C4D-41E0-A733-DFC9A3FA13E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cards", "..\Cards\Cards\Cards.csproj", "{D0BA0265-A384-4F68-8D85-26F04E620240}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tools", "..\Tools\Tools\Tools.csproj", "{B3A6561E-B335-4601-A364-D3A1EA85C42B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{614010D3-6C4D-41E0-A733-DFC9A3FA13E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{614010D3-6C4D-41E0-A733-DFC9A3FA13E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{614010D3-6C4D-41E0-A733-DFC9A3FA13E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{614010D3-6C4D-41E0-A733-DFC9A3FA13E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BA0265-A384-4F68-8D85-26F04E620240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BA0265-A384-4F68-8D85-26F04E620240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BA0265-A384-4F68-8D85-26F04E620240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BA0265-A384-4F68-8D85-26F04E620240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3A6561E-B335-4601-A364-D3A1EA85C42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3A6561E-B335-4601-A364-D3A1EA85C42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3A6561E-B335-4601-A364-D3A1EA85C42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3A6561E-B335-4601-A364-D3A1EA85C42B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03542D90-26D4-4C99-BAC4-45F86C052121}
+	EndGlobalSection
+EndGlobal
